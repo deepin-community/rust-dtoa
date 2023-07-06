@@ -4,16 +4,43 @@ Upstream-Contact: David Tolnay <dtolnay@gmail.com>
 Source: https://github.com/dtolnay/dtoa
 
 Files: *
-Copyright: 2016-2018 David Tolnay <dtolnay@gmail.com>
-           2016-2018 Dtoa Developers
+Copyright: FIXME (overlay) UNKNOWN-YEARS David Tolnay <dtolnay@gmail.com>
 License: MIT or Apache-2.0
 Comment:
- Upstream license mentions "Itoa Developers" which is just a copy-paste
- error and this refers to the same people as "Dtoa Developers".
+ FIXME (overlay): Since upstream copyright years are not available in
+ Cargo.toml, they were extracted from the upstream Git repository. This may not
+ be correct information so you should review and fix this before uploading to
+ the archive.
+
+Files: ./src/diyfp.rs
+Copyright:
+ 2016 Dtoa Developers
+ 2015 THL A29 Limited, a Tencent company, and Milo Yip. All
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/dtoa.rs
+Copyright:
+ 2016 Dtoa Developers
+ 2015 THL A29 Limited, a Tencent company, and Milo Yip. All
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
+
+Files: ./src/lib.rs
+Copyright: 2016 Dtoa Developers
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
 
 Files: debian/*
-Copyright: 2018 Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-           2018 Ximin Luo <infinity0@debian.org>
+Copyright:
+ 2018 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018 Ximin Luo <infinity0@debian.org>
 License: MIT or Apache-2.0
 
 License: Apache-2.0
