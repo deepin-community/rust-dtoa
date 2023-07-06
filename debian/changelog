@@ -1,5 +1,15 @@
-template-repository (1.0-1) unstable; urgency=medium
+rust-dtoa (0.4.3-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Package dtoa 0.4.3 from crates.io using debcargo 2.2.7
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Ximin Luo ]
+  * Update copyright information.
+
+ -- Wolfgang Silbermayr <wolfgang@silbermayr.at>  Sun, 07 Oct 2018 11:28:39 +0200
+
+rust-dtoa (0.4.2-1) unstable; urgency=medium
+
+  * Package dtoa 0.4.2 from crates.io using debcargo 2.1.1
+
+ -- Ximin Luo <infinity0@debian.org>  Fri, 22 Jun 2018 00:17:31 -0700
